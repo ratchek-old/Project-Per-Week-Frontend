@@ -67,7 +67,7 @@ const Game= () => {
     }
 
     function jumpTo(move) {
-        setXIsNext(move % 2 == 0)
+        setXIsNext(move % 2 === 0)
         setStepNumber(move)
     }
     
