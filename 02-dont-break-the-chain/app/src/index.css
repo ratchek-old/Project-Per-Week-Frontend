@@ -1,13 +1,16 @@
 
 .day{
   border-color: darkred;
+  /* border-color: #0D4FF2; */
   border-style: solid;
-  border-width: 2px;
-  width: 7em;
-  height: 7em;
-  margin: 5px;
+  border-width: 0.2em;
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+  padding: 1em;
   color: #0D4FF2;
-
+  font-weight: bold;
+  font-family: cursive;
 }
 
 .day:hover{
@@ -21,19 +24,14 @@
   -moz-border-radius-bottomleft: 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
-
 }
-
-
 
 .odd-month{
   background-color: #0DC2F2;
-
 }
 
 .even-month{
   background-color: #0DF2B0;
-
 }
 .week {
   display: flex;
