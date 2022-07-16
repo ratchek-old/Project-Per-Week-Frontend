@@ -9,7 +9,10 @@ const Week = (props) => {
     <div className="week"> 
       {range.map((index) => {
         return (
-          <Day date={ addDays(sunday, index) }/>
+          <Day 
+            key = {index.toString()}
+            date={ addDays(sunday, index) }
+          />
         )  
       })}
     </div>
