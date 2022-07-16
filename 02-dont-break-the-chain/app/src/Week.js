@@ -11,6 +11,7 @@ const Week = (props) => {
         return (
           <Day 
             key = {index.toString()}
+            sunday = {sunday}
             date={ addDays(sunday, index) }
           />
         )  
