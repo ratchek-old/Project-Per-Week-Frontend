@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
         <h1> Hello world!</h1>
+        <Week date={addWeeks(date, -1)} />
         <Week date={date}/>
         <Week date={addWeeks(date, 1)} />
     </div>
