@@ -1,16 +1,15 @@
 import Day from './Day';
-import { addDays } from './TimeTravel';
+import { addDays, getSundayBefore } from './TimeTravel';
 
 const Week = (props) => {
 
   const range = [0,1,2,3,4,5,6]
-
-  console.log(range)
+  let sunday = getSundayBefore(props.date)
   return (
     <div className="week"> 
       {range.map((index) => {
         return (
-          <Day date={ addDays(props.date, index) }/>
+          <Day date={ addDays(sunday, index) }/>
         )  
       })}
     </div>

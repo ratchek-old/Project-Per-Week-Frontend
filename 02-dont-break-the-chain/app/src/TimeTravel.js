@@ -10,3 +10,8 @@ newDate.setDate(date.getDate() + 7 * numberOfWeeks);
 return (newDate);
 }
 
+export function getSundayBefore(date){
+    let newDate = new Date();
+    newDate.setDate(date.getDate() - date.getDay())
+    return (newDate)
+}
