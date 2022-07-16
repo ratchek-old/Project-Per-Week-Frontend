@@ -9,7 +9,6 @@ export function addDays(date, numberOfDays){
 export function addWeeks(date, numberOfWeeks){
 let newDate = new Date();
 newDate.setDate(date.getDate() + 7 * numberOfWeeks);
-console.log(  " returning with" + newDate.toDateString())
 
 return (newDate);
 }
