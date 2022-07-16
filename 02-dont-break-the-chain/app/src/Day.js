@@ -9,7 +9,7 @@ const Day = (props) => {
       id={isToday(props.date) ?"today": null}
       key = {props.date.getDate()}
     > 
-        {props.date.getDate() + "  "  + props.date.getMonth()} 
+        {props.date.getMonth() + " / "  + props.date.getDate()} 
     </div>
   );
 }
