@@ -1,4 +1,4 @@
-import Day from './Day';
+import Week from "./Week"
 
 function App() {
   const date = new Date();
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
         <h1> Hello world!</h1>
-        <Day date={date}/>
+        <Week date={date}/>
     </div>
   );
 }

@@ -8,3 +8,6 @@ html{
   border-width: 5px;
   color: white;
 }
+.week{
+ column-count: 7;
+}
