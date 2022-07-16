@@ -5,7 +5,7 @@ Stuff to improve upon:
 - [ ] Add month names next to calendar
 - [ ] Lift the state up from the Day component
 - [ ] Create some sort of data structure (probably hash table) to store days that were a success
-- [ ] Store that datat structure in local storage so it persists after refresh
+- [ ] Store that data structure in local storage so it persists after refresh
 - [ ] Add a backend so people can log in from anywhere.
 - [ ] Add ability to start without logging in,  but dipslay warning that data might be erased if browser data cleared.
 - [ ] Add import functionality from local storage to backend once user creates account. (SANITIZE DATA!!!)
@@ -18,3 +18,8 @@ Stuff to improve upon:
 - [ ] Statistics will be easier to implement in super strict mode. Do that first, then everything else.
 - [ ] Add possibility of exporting data.
 - [ ] Add possibility of importing data?? (Make sure to sanitize input)
+- [ ] Add the possibility of creating a goal (and suome sort of animation that happens when you achieve that gaol)
+- [ ] Add some sort of link to explain the idea behind don't break the chain\
+- [ ] Have an "accessible" toggle that changes the calendar colors to something color-blind people can differentiate
+- [ ] Be able to set weekends, Sundays, or Saturdays, (or any other day) as "off" days that don't penalize your streak/score/goal when you miss them
+- [ ] Have a month view, 3 month view, 6 months view, and year view in addition to the scrolling.
